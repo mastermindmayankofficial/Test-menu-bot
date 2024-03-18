@@ -15,8 +15,8 @@ def menu(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Here is your menu:', reply_markup=reply_markup)
 
 def main() -> None:
-    # Initialize the updater and dispatcher
-    updater = Updater("7017333662:AAFN3zbRprO0BxbsDcKEs_8v_YsjFnglj7w")
+    # Initialize the updater and dispatcher with use_context=True
+    updater = Updater("7017333662:AAFN3zbRprO0BxbsDcKEs_8v_YsjFnglj7w", use_context=True)
     dispatcher = updater.dispatcher
 
     # Add handlers
