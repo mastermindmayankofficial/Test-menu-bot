@@ -16,7 +16,7 @@ def menu(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Initialize the updater with your bot token
-    updater = Updater("7017333662:AAFN3zbRprO0BxbsDcKEs_8v_YsjFnglj7w")
+    updater = Updater("7046342417:AAHON_KjJl3HOBmvM5TDwF9eh0Z-YbogZVw")
     dispatcher = updater.dispatcher
 
     # Add handlers
